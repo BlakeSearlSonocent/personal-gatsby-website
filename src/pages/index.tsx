@@ -1,11 +1,9 @@
 import React from "react"
-import {Link} from "gatsby"
+import NavBar from "../components/NavBar"
 
 export default () => (
   <div>
     Blake's website
-    <div>
-      <Link to="/blog">Blog page</Link>
-    </div>
+    <NavBar/>
   </div>
 )
