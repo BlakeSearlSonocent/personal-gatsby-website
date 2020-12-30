@@ -1,11 +1,12 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 
 const error = () => {
   return (
-    <div>
+    <Layout>
       <h1>This page don't exist :(</h1>
-    </div>
+    </Layout>
   )
 }
 
